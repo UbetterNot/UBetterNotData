@@ -1,0 +1,165 @@
+body {
+
+	background: rgb(240,240,240);
+	font-family: "Roboto";
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.layout {
+	height: 100%;
+	width: 100%;
+}
+
+
+.layout_align {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.layout_monetize_banner {
+	width: 100%;
+	margin: 24px;
+	display: flex;
+	justify-content: center;
+}
+
+.layout_monetize_soils {
+	display: flex;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	pointer-events: none;
+	align-items: center;
+	justify-content: center;
+}
+
+.monetize_soil {
+	pointer-events: all;
+	width: 300px;
+}
+
+.soil_left {
+        display: flex;
+        justify-content: space-between;
+}
+
+.monetize_dummy {
+	width: 780px;
+flex-shrink: 0;
+}
+
+.layout_window {
+	flex-shrink: 0;
+	width: 600px;
+	height: auto;
+	background: white;
+	border-radius: 3px;
+	box-shadow: 0px 1px 2px rgba(0,0,0,0.32);
+	overflow: hidden;
+}
+
+.window_titlebar {
+	width: 100%;
+	height: 46px;
+	background: rgb(230,230,230);
+	position: relative;
+	border-bottom: 1px solid rgb(210,210,210);
+}
+
+.titlebar_buttons {
+	height: 100%;
+	padding: 0 18px;
+	display: flex;
+	align-items: center;
+	position: absolute;
+}
+
+.circle {
+	margin-right: 9px;
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: black;
+}
+
+.red {
+	background: #ff6159;
+}
+
+.yellow {
+	background: #ffbd2e;
+}
+
+.green {
+	background: #28c941;
+}
+
+.titlebar_label {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	font-weight: 500;
+	color: rgb(100,100,100);
+	justify-content: center;
+	align-items: center;
+}
+
+.window_align {
+	display: flex;
+	width: 100%;
+	padding: 28px;
+}
+
+.window_preview {
+	width: 40%;
+	border-radius: 3px;
+	overflow: hidden;
+}
+
+.preview {
+	width: 100%;
+	display: block;
+}
+
+.download_button {
+	display: block;
+	width: 100%;
+	border-radius: 3px;
+	font-weight: 700;
+	color: white;
+	background: #4CAF50;
+	padding: 12px 0;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+	margin-top: 28px;
+}
+
+.window_details {
+	padding-left: 32px;
+	width: 60%;
+}
+
+.details_title {
+	display: block;
+	font-size: 22px;
+	font-weight: 500;
+	margin-bottom: 22px;
+}
+
+.details_text {
+	font-size: 15px;
+	color: rgb(70,70,70);
+	line-height: 137%;
+	margin: -3px 0;
+}
